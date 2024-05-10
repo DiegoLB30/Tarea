@@ -1,0 +1,19 @@
+les dejo pa que refresquen un enunciado que hice con los muchachos, que es solo de conceptos, no hay que armar un fw ni nada de eso
+
+hacer un proyecto que tenga un listado de automoviles, que pueden ser motocicleta, carro, autobus; los mismos van a tener un marca, modelo, color, cantidad de puestos
+debo poder buscar los automoviles de una marca en especifico, ejemplo quiero los honda debe traerme todos los automoviles de ese tipo ejemplo busco marca honda y
+debe traerme un carro honda modelo civic civic y una moto honda modelo navi, debo tambien poder buscar un modelo en especifico es decir civic y que me traiga el honda civic, los vehiculos deben
+poder decirme si puede ser transporte publico o no, teniendo en cuenta que los carros y las motos no deben de ser un transporte publico.
+
+tareas
+tener un archivo csv con los datos de los automoviles
+filtrar por nombre y/o marca un automovil especifico
+decir si un automovil especifico puede ser transporte publico
+
+criterios:
+el codigo fuente debe de ser en ingles
+debes de hacer test unitarias
+
+tips:
+pensar en abstracion, llevar de lo general a lo especifico
+los metodos de las entidades, repositorios y servicio no deben de hacer echo, el echo se hace en el index que es en donde se piden los datos del automovil
