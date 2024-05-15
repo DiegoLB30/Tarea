@@ -1,10 +1,9 @@
 <?php
 
-require_once "Vehicle.php";
+namespace src\entities;
 
-class Car extends Vehicle
+class Bus extends Vehicle
 {
-
     const NUMWHEELS = 4;
     const PLACE = "street";
 
@@ -20,7 +19,7 @@ class Car extends Vehicle
 
     public function isPublic()
     {
-        return false;
+        return true;
     }
 }
 

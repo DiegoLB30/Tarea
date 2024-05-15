@@ -1,6 +1,6 @@
 <?php
 
-require_once "Vehicle.php";
+namespace src\entities;
 
 class Motorcycle extends Vehicle
 {

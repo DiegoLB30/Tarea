@@ -1,10 +1,11 @@
 <?php
 
-require_once "Vehicle.php";
+namespace src\entities;
 
-class Bicycle extends Vehicle
+class Car extends Vehicle
 {
-    const NUMWHEELS = 2;
+
+    const NUMWHEELS = 4;
     const PLACE = "street";
 
     public function getWheels()
