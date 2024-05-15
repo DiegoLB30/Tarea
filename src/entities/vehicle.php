@@ -1,5 +1,7 @@
 <?php
 
+namespace src\entities;
+
 abstract class Vehicle
 {
 

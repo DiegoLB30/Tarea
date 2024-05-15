@@ -1,11 +1,13 @@
 <?php
 
+namespace src\entities;
 require_once "Vehicle.php";
 
-class Plane extends Vehicle
+class Car extends Vehicle
 {
-    const NUMWHEELS = 2;
-    const PLACE = "sky";
+
+    const NUMWHEELS = 4;
+    const PLACE = "street";
 
     public function getWheels()
     {
@@ -19,8 +21,7 @@ class Plane extends Vehicle
 
     public function isPublic()
     {
-        return true;
+        return false;
     }
-
 }
 
