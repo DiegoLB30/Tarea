@@ -1,11 +1,7 @@
 <?php
 
-require "entities/bicycle.php";
-require "entities/boat.php";
-require "entities/bus.php";
-require "entities/car.php";
-require "entities/motorcycle.php";
-require "entities/plane.php";
+require "vendor/autoload.php";
+
 
 $bicycle = new Bicycle("shimano", "29", "amarillo", 1);
 

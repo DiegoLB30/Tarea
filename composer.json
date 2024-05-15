@@ -1,0 +1,13 @@
+{
+    "name": "dlugo/tarea",
+    "authors": [
+        {
+            "name": "Diego Lugo",
+            "email": "dlugo6680@gmail.com"
+        }
+    ],
+
+    "autoload": {
+        "classmap": ["entities"]
+    }
+}
