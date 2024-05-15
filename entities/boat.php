@@ -1,15 +1,15 @@
 <?php
 
-require "vehicle.php";
+require_once "Vehicle.php";
 
 class Boat extends Vehicle
 {
 
-    const place = "water";
+    const PLACE = "water";
 
     public function getPlace()
     {
-        return self::place;
+        return self::PLACE;
     }
 
     public function isPublic()
@@ -19,4 +19,3 @@ class Boat extends Vehicle
 
 }
 
-$boat = new Boat("honda", "civic", "negro", 5);

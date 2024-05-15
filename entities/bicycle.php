@@ -1,15 +1,20 @@
 <?php
 
-require "vehicle.php";
+require_once "Vehicle.php";
 
 class Bicycle extends Vehicle
 {
+    const NUMWHEELS = 2;
+    const PLACE = "street";
 
-    const place = "street";
+    public function getWheels()
+    {
+        return self::NUMWHEELS;
+    }
 
     public function getPlace()
     {
-        return self::place;
+        return self::PLACE;
     }
 
     public function isPublic()
@@ -17,9 +22,4 @@ class Bicycle extends Vehicle
         return false;
     }
 }
-
-
-$bicycle = new Bicycle("shimano", "29", "amarillo", 1);
-
-
 
