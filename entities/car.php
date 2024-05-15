@@ -1,22 +1,21 @@
 <?php
 
-require "vehicle.php";
+require_once "Vehicle.php";
 
 class Car extends Vehicle
 {
 
-    const numWheels = 4;
-
-    const place = "street";
+    const NUMWHEELS = 4;
+    const PLACE = "street";
 
     public function getWheels()
     {
-        return self::numWheels;
+        return self::NUMWHEELS;
     }
 
     public function getPlace()
     {
-        return self::place;
+        return self::PLACE;
     }
 
     public function isPublic()
@@ -25,4 +24,3 @@ class Car extends Vehicle
     }
 }
 
-$car = new Car("honda", "civic", "negro", 5);

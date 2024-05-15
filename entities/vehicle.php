@@ -1,6 +1,6 @@
 <?php
 
-abstract class vehicle
+abstract class Vehicle
 {
 
     protected $brand;

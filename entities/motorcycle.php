@@ -1,20 +1,20 @@
 <?php
 
-require "vehicle.php";
+require_once "Vehicle.php";
 
 class Motorcycle extends Vehicle
 {
-const numWheels = 2;
-const place = "street";
+const NUMWHEELS = 2;
+const PLACE = "street";
 
 public function getWheels()
 {
-return self::numWheels;
+return self::NUMWHEELS;
 }
 
 public function getPlace()
 {
-return self::place;
+return self::PLACE;
 }
 
 public function isPublic()
@@ -24,4 +24,3 @@ public function isPublic()
 
 }
 
-$moto = new Motorcycle("honda", "navi", "rojo", 2);

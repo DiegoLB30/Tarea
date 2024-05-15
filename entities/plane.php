@@ -1,20 +1,20 @@
 <?php
 
-require "vehicle.php";
+require_once "Vehicle.php";
 
 class Plane extends Vehicle
 {
-    const numWheels = 2;
-    const place = "sky";
+    const NUMWHEELS = 2;
+    const PLACE = "sky";
 
     public function getWheels()
     {
-        return self::numWheels;
+        return self::NUMWHEELS;
     }
 
     public function getPlace()
     {
-        return self::place;
+        return self::PLACE;
     }
 
     public function isPublic()
@@ -24,4 +24,3 @@ class Plane extends Vehicle
 
 }
 
-$plane = new Plane("boeing", "747", "blanco", 350);
