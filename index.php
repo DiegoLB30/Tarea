@@ -1,15 +1,15 @@
 <?php
 
+
+
+require_once "vendor/autoload.php";
+
 use src\entities\Bicycle;
 use src\entities\Boat;
 use src\entities\Bus;
 use src\entities\Car;
 use src\entities\Motorcycle;
 use src\entities\Plane;
-
-require_once "vendor/autoload.php";
-
-
 
 
 
