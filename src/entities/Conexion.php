@@ -3,17 +3,17 @@
 namespace src\entities;
 
 class Conexion{
-    protected $fo;
+    protected $fOpen;
 
     public function __construct(){
-         $this->fo = fopen("automoviles.csv", "r");
+         $this->fOpen = fopen("automoviles.csv", "r");
     }
 
     public function getInfo()
     {
         echo "<table>";
 
-        while (($datos = fgetcsv($this->fo, 1000, ";"))!==false){
+        while (($datos = fgetcsv($this->fOpen, 1000, ";"))!==false){
 
         echo "<tr>";
 
@@ -24,7 +24,7 @@ class Conexion{
         echo "</tr>";
         }
 
-        fclose($this->fo);
+        fclose($this->fOpen);
 
         echo "</table>";
     }
