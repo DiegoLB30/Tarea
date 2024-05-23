@@ -4,7 +4,6 @@ namespace src\entities;
 
 abstract class Vehicle
 {
-
     protected $brand;
     protected $model;
     protected $color;
